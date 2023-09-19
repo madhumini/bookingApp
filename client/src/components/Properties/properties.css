@@ -1,0 +1,43 @@
+.prop{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.propItem{
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.propImg{
+    width: 100%;
+}
+
+.propName{
+    font-weight: bold;
+}
+
+.propCity{
+    font-weight: 200;
+}
+
+.propPrice{
+    font-weight: 500;
+}
+
+.propRating button{
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.propRating span{
+    font-size: 14px;
+}
